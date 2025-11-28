@@ -60,6 +60,21 @@ body {
   align-items: center;
 }
 
+.sticky {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 0.9rem;
+  margin: 0 auto;
+}
+
+.sticky a {
+  color: #9CA3AF;
+  text-decoration: none;
+}
+
 .odin-image {
   height: 180px;
   width: auto;
@@ -205,5 +220,8 @@ label input::placeholder {
     width: 100%;
     height: auto;
     min-height: 300px;
+  }
+  .sticky {
+    left: 30%;
   }
 }
